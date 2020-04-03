@@ -15,6 +15,15 @@
         <jetty.port>9090</jetty.port>
         <jetty.stop.port>9999</jetty.stop.port>
     </properties>
+    <repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo1.maven.org/maven2</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>
 
     <build>
         <finalName>gameoflife</finalName>
